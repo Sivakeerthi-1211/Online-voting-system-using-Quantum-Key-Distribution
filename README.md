@@ -41,22 +41,23 @@ Do **not** deploy without proper security improvements.
 ---
 
 ## Project Structure
+
 project-root/
-├─ app.py # Main Flask application
-├─ database/
-│ └─ voting_system.sql # Database schema + sample data
-├─ templates/ # HTML templates for different pages
-│ ├─ home.html
-│ ├─ admin_login.html
-│ ├─ admin_dashboard.html
-│ ├─ voting_ballot.html
-│ └─ voting_success.html
-├─ static/ # Static files (CSS, images)
-│ ├─ css/
-│ │ └─ style.css
-│ └─ images/
-│ └─ election.jpeg
-└─ venv/ # Virtual environment (should be .gitignored)
+├── app.py # Main Flask application
+├── database/
+│ └── voting_system.sql # Database schema + sample data
+├── templates/ # HTML templates for different pages
+│ ├── home.html
+│ ├── admin_login.html
+│ ├── admin_dashboard.html
+│ ├── voting_ballot.html
+│ └── voting_success.html
+├── static/ # Static files (CSS, images)
+│ ├── css/
+│ │ └── style.css
+│ └── images/
+│ └── election.jpeg
+└── venv/ # Virtual environment (should be .gitignored)
 
 ---
 
